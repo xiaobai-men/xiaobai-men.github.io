@@ -1,0 +1,9 @@
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+.navbar-nav .nav-item .nav-link .iconfont {
+  margin-right: 4px;
+}
+.toc-list-item {
+  margin: 5px 0;
+}

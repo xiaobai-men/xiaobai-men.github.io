@@ -3,10 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: blob
+title: 雪之夏blog
 subtitle: ''
-description: '这是一个测试描述'
-layout: about
+description: '记忆收容处'
 keywords:
 author: Xuezhixia
 language: zh-CN
@@ -103,3 +102,58 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 顶部标题部分
+## blog_title: 标题
+navbar:
+  blog_title: 雪之夏blog
+
+  logo:
+    enable: true
+    file: "/img/logo.png"
+    size: "2rem"
+    padding_right: "0.5rem"
+
+  menu:
+    - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '归档' }
+    - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '联系我' }
+
+# 打字机
+## slogan: 首页打字机
+## banner_img: 首页背景图
+## post_url_target: 文章跳转方式
+index:
+  slogan:
+    enable: true
+    text: 做我想做
+    api:
+      enable: true
+      url: "https://v1.hitokoto.cn/"
+      method: "GET"
+      headers: {}
+      keys: ["hitokoto"]
+  banner_img: /img/page-bg.png
+  post_url_target: _blank
+
+## default_index_img: 文章封面图
+## banner_img: 文章背景图
+post:
+  default_index_img: /img/page-bg.png
+  banner_img: /img/page-bg.png
+
+# 字体设置
+font:
+  font_size: 16px
+  font_family: KaiTi
+  custom_css: https://fonts.proxy.ustclug.org/css2?family=Noto+Serif+SC&display=swap
+  letter_spacing: 0.02em
+  code_font_size: 85%
+
+custom_css: /css/custom.css
+
+custom_js: /js/custom.js
+
+custom_head: '<meta name="key" content="value">'
+
+favicon: /img/logo.png
