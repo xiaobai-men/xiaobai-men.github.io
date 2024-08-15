@@ -1,5 +1,6 @@
 ---
 title: Hello World
+tags: [测试类]
 ---
 欢迎来到[Hexo](https://hexo.io/)! 这是你的第一篇帖子。检查[文件](https://hexo.io/docs/)了解更多信息。如果您在使用Hexo时遇到任何问题，可以在[故障排除]中找到答案(https://hexo.io/docs/troubleshooting.html) 或者你可以在[GitHub]上问我(https://github.com/hexojs/hexo/issues).
 

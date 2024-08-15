@@ -116,7 +116,8 @@ navbar:
 
   menu:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
-    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', name: '归档' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', banner_img: /img/page-bg.png, name: '归档' }
+    - { key: 'tags', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '分类' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '联系我' }
 
 # 打字机
@@ -150,10 +151,19 @@ font:
   letter_spacing: 0.02em
   code_font_size: 85%
 
+# 自定义css
 custom_css: /css/custom.css
 
+# 自定义js
 custom_js: /js/custom.js
 
+# 自定义header的html
 custom_head: '<meta name="key" content="value">'
+
+# 自定义html
+custom_html: '<link rel="stylesheet" href="/dist/APlayer.min.css">
+<div id="aplayer"></div>
+<script type="text/javascript" src="/dist/APlayer.min.js"></script>
+<script type="text/javascript" src="/dist/music.js"></script>'
 
 favicon: /img/logo.png
