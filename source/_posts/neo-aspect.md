@@ -1,7 +1,7 @@
 ---
 title: Neo-Aspect
 tags: [Music]
-index_img: /img/Roselia.png
+index_img: /img/tags/Roselia.png
 ---
 《Neo-Aspect》是Roselia演唱的歌曲，收录于《BanG Dream! 5th☆LIVE Day2 Roselia -Ewigkeit-》专辑中。
 

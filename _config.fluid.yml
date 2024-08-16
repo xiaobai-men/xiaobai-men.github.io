@@ -116,7 +116,7 @@ navbar:
 
   menu:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill' }
-    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', banner_img: /img/page-bg.png, name: '归档' }
+    - { key: 'archives', link: '/archives/', icon: 'iconfont icon-archive-fill', banner_img: /img/page-bg.jpg, name: '归档' }
     - { key: 'tags', link: '/tags/', icon: 'iconfont icon-tags-fill', name: '分类' }
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill', name: '联系我' }
 
@@ -134,14 +134,14 @@ index:
       method: "GET"
       headers: {}
       keys: ["hitokoto"]
-  banner_img: /img/page-bg.png
+  banner_img: /img/page-bg.jpg
   post_url_target: _blank
 
 ## default_index_img: 文章封面图
 ## banner_img: 文章背景图
 post:
-  default_index_img: /img/page-bg.png
-  banner_img: /img/page-bg.png
+  default_index_img: /img/page-bg.jpg
+  banner_img: /img/page-bg.jpg
 
 # 字体设置
 font:
@@ -162,8 +162,16 @@ custom_head: '<meta name="key" content="value">'
 
 # 自定义html
 custom_html: '<link rel="stylesheet" href="/dist/APlayer.min.css">
+<canvas id="canvas" width="100%" height="100%" style="position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;"></canvas>
+<script src="/js/weatherDrop.js"></script>
 <div id="aplayer"></div>
 <script type="text/javascript" src="/dist/APlayer.min.js"></script>
-<script type="text/javascript" src="/dist/music.js"></script>'
+<script type="text/javascript" src="/dist/music.js"></script>
+<script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>'
 
 favicon: /img/logo.png
